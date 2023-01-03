@@ -13,7 +13,17 @@ body {
     text-align: center;
 }
 
+.site-title span {
+    position: absolute;
+    font: 15.5vw monospace;
+    margin: 0 auto;
+    width: 100%;
+    mix-blend-mode: difference;
+}
+
 .site-title img {
+    width: 100vw;
+    object-fit: cover;
 }
 
 .navbar {
